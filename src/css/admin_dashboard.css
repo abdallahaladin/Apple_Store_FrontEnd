@@ -1,0 +1,125 @@
+.con{background-image: url(../assets/home/back1.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    }
+    .ProfilePic{
+    width: 100vw;
+    height: 400px;
+    
+    display: flex;
+    justify-content: center;
+    }
+    .ProfilePic .image{
+        width: 500px;
+        height: 400px;
+    
+        display: flex;
+        justify-content: center;
+        clear: both;
+    }
+    .ProfilePic .image img{
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        margin-top: 30px;
+        clear: both;
+    }
+    .user_Name{
+       width: 100vw;
+       height: 150px;
+       display: flex;
+       justify-content: space-between; 
+       padding-left: 25px;
+       
+      
+    }
+    .user_Name h3{
+    font-weight: bold;
+    font-size: 1.5em;
+    line-height: 150px;
+    color: rgb(255, 255, 255);
+    }
+    .user_Name button {
+        width: 200px;
+        height: 50px;
+        background-color: burlywood;
+        margin-top: 50px;
+        margin-right: 30px;
+        border-radius: 30px;
+        font-size: 1.2em;
+    }
+    .user_Name button:hover{
+        background-color: blueviolet;
+        font-size: 1.3em;
+    } 
+    .Mobile{
+        width: 100vw;
+        height: 150px;
+        display: flex;
+        justify-content: space-between; 
+        padding-left: 25px;
+        
+     }
+     .Mobile h3{
+     font-weight: bold;
+     font-size: 1.5em;
+     line-height: 150px;
+     color: rgb(255, 255, 255);
+     }
+     .Mobile button {
+         width: 200px;
+         height: 50px;
+         background-color: burlywood;
+         margin-top: 50px;
+         margin-right: 30px;
+         border-radius: 30px;
+         font-size: 1.2em;
+     }
+     .Mobile button:hover{
+         background-color: blueviolet;
+         font-size: 1.3em;
+     } 
+     .Change_Password{
+        width: 100vw;
+        height: 150px;
+        display: flex;
+        justify-content: space-between; 
+        padding-left: 25px;
+     }
+     .Change_Password h3{
+     font-weight: bold;
+     font-size: 1.5em;
+     line-height: 150px;
+    color: rgb(255, 255, 255);
+     }
+     .Change_Password button {
+         width: 200px;
+         height: 50px;
+         background-color: burlywood;
+         margin-top: 50px;
+         margin-right: 30px;
+         border-radius: 30px;
+         font-size: 1.2em;
+     }
+     .Change_Password button:hover{
+         background-color: blueviolet;
+         font-size: 1.3em;
+   }
+.BackGround {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.BackGround form {
+    margin: 40px;
+} 
+   #product_name ,#product_price{
+    width: 200px ;
+    background-color: #fff;
+    padding: 2px;
+   }
+   .BackGround label {
+    color: white;
+   }

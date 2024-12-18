@@ -1,0 +1,30 @@
+.con03{background-image: url(../assets/home/back1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;width: 100vw;height: 100vh;
+    }
+    .ProfilePic{
+    width: 100vw;
+    height: 400px;
+    
+    display: flex;
+    justify-content: center;
+    }
+    .ProfilePic .image{
+        width: 500px;
+        height: 400px;
+    
+        display: flex;
+        justify-content: center;
+        clear: both;
+    }
+    .ProfilePic .image img{
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        margin-top: 30px;
+        clear: both;
+    }
+    .input_Mobile{display: flex; justify-content: center;}
+    .input_Mobile h2{text-align: center; margin-left: auto; color: white;}
+    .input_Mobile input{width: 300px; height: 50px; border-radius: 35px; margin: auto; padding: 5px; }
